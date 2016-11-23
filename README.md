@@ -1,1 +1,1 @@
-## BNR Book Pratices
+## BNR Book Practices

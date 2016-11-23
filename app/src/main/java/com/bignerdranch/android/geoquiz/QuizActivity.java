@@ -2,6 +2,7 @@ package com.bignerdranch.android.geoquiz;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class QuizActivity extends Activity {
@@ -15,6 +16,18 @@ public class QuizActivity extends Activity {
         setContentView(R.layout.activity_quiz);
 
         mTrueButton = (Button) findViewById(R.id.true_button);
+        mTrueButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
         mFalseButton = (Button) findViewById(R.id.false_button);
+        mFalseButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }
